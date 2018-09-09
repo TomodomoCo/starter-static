@@ -3,6 +3,8 @@ public/
 vendor/
 node_modules/
 bower_components/
+credentials/
+secrets/
 
 # Hidden files, caches, and misc.
 .sass-cache
