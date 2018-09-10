@@ -1,5 +1,5 @@
 {
-  "name": "vpmframe-static",
+  "name": "@tomodomo/starter-static",
   "devDependencies": {
     "gulp": "^3.9.0",
     "bower": "*",
@@ -20,8 +20,8 @@
     "twig-markdown": "*"
   },
   "scripts": {
-    "gulp": "gulp",
-    "bower": "bower",
-    "postinstall": "yarn run bower install"
+    "dev": "npx gulp watch",
+    "build": "npx gulp",
+    "postinstall": "npx bower install"
   }
 }
